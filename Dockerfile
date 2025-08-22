@@ -11,5 +11,3 @@ RUN chmod +x /usr/local/bin/docker-entrypoint-docker.sh
 
 ENTRYPOINT ["/usr/local/bin/docker-entrypoint-docker.sh"]
 CMD ["n8n"]
-
-USER node
